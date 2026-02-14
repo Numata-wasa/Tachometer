@@ -1,4 +1,4 @@
-26491494345902344
+26487963579508589
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -105665,13 +105665,6 @@ Integrated Circuit
 16
 16
 WOBCLibrary
-Board_1U_40x120_for_Rocket
-
-
-0
-4
-1
-WOBCLibrary
 Board_1U_60x60
 
 
@@ -105762,13 +105755,6 @@ RotarySwitch_2x04
 0
 12
 10
-WOBCLibrary
-SAM-M8Q
-
-SAM-M8Q 
-0
-20
-20
 WOBCLibrary
 SC2004CSWB
 
