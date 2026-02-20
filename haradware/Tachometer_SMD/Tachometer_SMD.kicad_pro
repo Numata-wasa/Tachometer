@@ -460,6 +460,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -470,7 +471,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "tachometer.kicad_pro",
+    "filename": "Tachometer_SMD.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -640,6 +641,10 @@
     [
       "7b2aac6b-0f94-41ef-b71d-7717d821d57e",
       "Root"
+    ],
+    [
+      "35a3caa5-1779-4bb0-b28d-c5b957f2bfa2",
+      "LM393"
     ]
   ],
   "text_variables": {}
