@@ -467,7 +467,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "WOBCLibrary"
+    ]
   },
   "meta": {
     "filename": "tachometer.kicad_pro",
