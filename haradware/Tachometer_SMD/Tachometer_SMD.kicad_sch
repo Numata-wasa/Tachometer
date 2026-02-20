@@ -999,6 +999,162 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "WOBCLibrary:Board"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "B"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Board_0_1"
+				(polyline
+					(pts
+						(xy -1.016 -1.27) (xy -1.27 -2.032) (xy -1.27 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -1.27) (xy -0.762 -2.032) (xy -0.762 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy -0.254 -2.032) (xy -0.254 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 -1.27) (xy 0.254 -2.032) (xy 0.254 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.27) (xy -1.016 -1.27) (xy -1.016 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.27) (xy 0.762 -2.032) (xy 0.762 -2.032) (xy 0.762 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Board_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -1508,6 +1664,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 121.92) (xy 201.93 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ac05223-26bd-4f2b-aa83-0dffb095d359")
+	)
+	(wire
+		(pts
 			(xy 200.66 57.15) (xy 190.5 57.15)
 		)
 		(stroke
@@ -1635,6 +1801,16 @@
 			(type default)
 		)
 		(uuid "850f05d6-17f6-41f7-93c3-c840c00d4f77")
+	)
+	(wire
+		(pts
+			(xy 208.28 121.92) (xy 201.93 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f3928f0-805c-4390-bced-116556dce253")
 	)
 	(wire
 		(pts
@@ -1806,6 +1982,16 @@
 		)
 		(uuid "d795a43f-e524-4996-96cb-22380d74c4a2")
 	)
+	(wire
+		(pts
+			(xy 208.28 132.08) (xy 208.28 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db3c6b3e-397c-48e4-9996-822c21532661")
+	)
 	(bus
 		(pts
 			(xy 87.63 101.6) (xy 116.84 101.6)
@@ -1965,7 +2151,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "ch2"
 			(at 152.4 118.4274 90)
 			(effects
 				(font
@@ -1974,7 +2160,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 148.59 115.57 0)
 			(effects
 				(font
@@ -2381,7 +2567,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 72.39 126.238 90)
 			(effects
 				(font
@@ -2517,7 +2703,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical"
 			(at 179.07 72.39 0)
 			(effects
 				(font
@@ -2590,7 +2776,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_XH_S4B-XH-A_1x04_P2.50mm_Horizontal"
 			(at 104.14 39.37 0)
 			(effects
 				(font
@@ -2666,7 +2852,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 188.722 62.23 90)
 			(effects
 				(font
@@ -2775,6 +2961,73 @@
 		)
 	)
 	(symbol
+		(lib_id "WOBCLibrary:Board")
+		(at 208.28 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6799f66a-a5e8-4021-9142-f3dd367caf25")
+		(property "Reference" "B101"
+			(at 210.82 131.8767 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 210.82 134.4167 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "WOBCLibrary:Board_1U_60x60"
+			(at 208.28 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 208.28 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "GND"
+			(uuid "0015abdf-cf35-414e-8f0b-6a09f58fdc54")
+		)
+		(instances
+			(project "Tachometer_SMD"
+				(path "/7b2aac6b-0f94-41ef-b71d-7717d821d57e"
+					(reference "B101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
 		(at 205.74 45.72 0)
 		(unit 1)
@@ -2802,7 +3055,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical"
 			(at 205.74 45.72 0)
 			(effects
 				(font
@@ -2872,7 +3125,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 127 127.508 90)
 			(effects
 				(font
@@ -3065,7 +3318,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "ch1"
 			(at 97.79 117.1574 90)
 			(effects
 				(font
@@ -3074,7 +3327,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 93.98 114.3 0)
 			(effects
 				(font
@@ -3150,7 +3403,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 86.36 132.588 90)
 			(effects
 				(font
@@ -3220,7 +3473,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23"
 			(at 96.52 121.92 0)
 			(effects
 				(font
@@ -3452,7 +3705,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23"
 			(at 151.13 123.19 0)
 			(effects
 				(font
@@ -3552,7 +3805,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 156.972 91.44 90)
 			(effects
 				(font
@@ -3619,7 +3872,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 140.97 133.858 90)
 			(effects
 				(font
@@ -3723,6 +3976,72 @@
 			(project "Tachometer_SMD"
 				(path "/7b2aac6b-0f94-41ef-b71d-7717d821d57e"
 					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 201.93 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f5502cf7-81d6-472c-97b5-a08f38cd6a33")
+		(property "Reference" "#PWR0114"
+			(at 201.93 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 201.93 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 201.93 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1cb835b2-ed92-4bba-8166-a56a86a4827a")
+		)
+		(instances
+			(project "Tachometer_SMD"
+				(path "/7b2aac6b-0f94-41ef-b71d-7717d821d57e"
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
