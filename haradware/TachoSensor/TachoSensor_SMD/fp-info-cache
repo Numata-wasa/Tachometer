@@ -1,4 +1,4 @@
-26489724042708038
+26489734671441041
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -70189,6 +70189,13 @@ Nch mosfet TK7R4A10PL
 4
 3
 Library
+RPR220
+package for Everlight ITR8307/F43, see https://everlighteurope.com/index.php?controller=attachment&id_attachment=5385
+refective opto couple photo coupler
+0
+4
+4
+Library
 SW_slide
 
 
@@ -105755,13 +105762,6 @@ RotarySwitch_2x04
 0
 12
 10
-WOBCLibrary
-SAM-M8Q
-
-SAM-M8Q 
-0
-20
-20
 WOBCLibrary
 SC2004CSWB
 
